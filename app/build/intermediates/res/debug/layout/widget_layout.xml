@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/configurationLayout">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/configurationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/update"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/image_update_description"
+            android:background="@drawable/button_contact_click"
+            android:src="@drawable/ic_update" />
+
+        <ImageButton
+            android:id="@+id/configure"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            android:contentDescription="@string/image_configuration_description"
+            android:background="@drawable/button_contact_click"
+            android:src="@drawable/ic_configure" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/widgetProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout><!-- From: file:/Users/diegobezerrasouza/Projetos/Android/newtouchcall/app/src/main/res/layout/widget_layout.xml -->

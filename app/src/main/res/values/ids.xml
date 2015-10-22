@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="contact_container"/>
+    <item type="id" name="contact_container_2"/>
+    <item type="id" name="contact_container_3"/>
+    <item type="id" name="contact_container_4"/>
+</resources>

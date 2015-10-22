@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TouchCall</string>
+    <string name="title_activity_widget_configuration">TouchCall</string>
+    <string name="action_search">Search</string>
+    <string name="user_image">imagem do usuário</string>
+    <string name="logo">logo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">search</string>
+    <string name="ok">OK</string>
+    <string name="widget_size_error">Selecione o restante dos contatos</string>
+    <string name="selected_info">Selecione mais %d</string>
+    <string name="image_user_description">imagem do usário</string>
+    <string name="image_configuration_description">configuração</string>
+    <string name="image_update_description">atualização</string>
+    <string name="test_name">user testing name</string>
+    <string name="bigger_label">TouchCall 4x4</string>
+    <string name="big_label">TouchCall 4x3</string>
+    <string name="medium_label">TouchCall 4x2</string>
+    <string name="small_label">TouchCall 4x1</string>
+    <string name="smaller_label">TouchCall 2x1</string>
+    <string name="update_toast">Contatos atualizados</string>
+    <string name="hasAlreadyTouchCallTypeMsg">Você já possui o TouchCall de %d contatos na tela</string>
+    <string name="noContactsText">Sem contatos para exibir</string>
+    <string name="contacts">Contatos</string>
+    <string name="preview">Preview</string>
+    <string name="empty">Vazio</string>
+    <string name="remove">Remover</string>
+    <string name="change_name">Mudar nome:</string>
+    <string name="cancel">Cancelar</string>
+    <string name="launch_activity_text_thanks">Obrigado por fazer o download do TouchCall!</string>
+    <string name="launch_activity_text_install">Para começar a usar o TouchCall você precisa adiciona-lo na sua homescreen.
+     Tenha certeza de adicionar o TouchCall pela sua lista de WIDGETS e não pela sua lista de APPS.</string>
+
+</resources>

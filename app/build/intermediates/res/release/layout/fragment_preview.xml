@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/contactsGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="2dp"
+        android:padding="2dp"
+        android:verticalSpacing="4dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollbars="none"
+        android:background="@color/black_transparent"
+        android:layout_gravity="center"
+        android:numColumns="4" />
+
+        <ScrollView
+            android:id="@+id/adLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/diegobezerrasouza/Projetos/Android/newtouchcall/app/src/main/res/layout/fragment_preview.xml -->

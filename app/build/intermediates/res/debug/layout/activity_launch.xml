@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_border"
+    android:padding="15dp"
+    tools:context="diego.bezerra.com.touchcall.LaunchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="@string/launch_activity_text_thanks" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="@string/launch_activity_text_install"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/diegobezerrasouza/Projetos/Android/newtouchcall/app/src/main/res/layout/activity_launch.xml -->

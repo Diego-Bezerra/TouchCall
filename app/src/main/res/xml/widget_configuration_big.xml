@@ -1,0 +1,7 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="180dp"
+    android:updatePeriodMillis="@integer/update_time"
+    android:initialLayout="@layout/widget_layout"
+    android:previewImage="@drawable/logo_big"
+    android:configure="diego.bezerra.com.touchcall.configurationActivity.ConfigurationActivity" />
